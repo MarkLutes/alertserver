@@ -29,6 +29,7 @@ async function getListByUserIdCB(userId) {
       let body = await fetchBacon(7);
       return {
           id: item,
+          icon: typeId,
           name: "Item Name",
           to: userId,
           content: {
