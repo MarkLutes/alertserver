@@ -1,0 +1,4 @@
+{ 
+    "secret": "ab436as134as2k3qta", 
+    "localUrl": "mongodb://127.0.0.1:27017" 
+}
