@@ -24,7 +24,7 @@ async function getListByUserIdCB(userId) {
    ]
 
   let results = randIds.map(async (item) => {
-      let typeId = Math.floor((Math.random() * 3) + 1);
+      let typeId = Math.floor((Math.random() * 4));
       let subject = await fetchBacon(1);
       let body = await fetchBacon(7);
       return {
